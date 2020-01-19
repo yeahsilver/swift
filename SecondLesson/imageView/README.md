@@ -3,28 +3,28 @@
 
 * 초기화면
 
-<img src="../img/second/1.png" width="40%" height="30%" alt="1"></img>
+<img src="../../img/second/1.png" width="40%" height="30%" alt="1"></img>
 
 * 스위치가 켜진 상태에서 확대 버튼을 눌렀을 경우
 
 
-<img src="../img/second/2.png" width="40%" height="30%" alt="2"></img>
+<img src="../../img/second/2.png" width="40%" height="30%" alt="2"></img>
 
 * 스위치 버튼을 껐을 경우 
 
 
-<img src="../img/second/3.png" width="40%" height="30%" alt="3"></img>
+<img src="../../img/second/3.png" width="40%" height="30%" alt="3"></img>
 
 * 스위치가 꺼진 상태에서 축소 버튼을 눌렀을 경우
 
-<img src="../img/second/4.png" width="40%" height="30%" alt="4"></img>
+<img src="../../img/second/4.png" width="40%" height="30%" alt="4"></img>
 
 ***
 
 * 함수 설명
   * 텍스트 Zoom in, Zoom out
 
-<img src="../img/second/5.png" width="40%" height="30%" alt="5"></img>
+<img src="../../img/second/5.png" width="40%" height="30%" alt="5"></img>
 
       * UIFont.boldSystemFont(ofsize:지정하고 싶은 사이즈의 숫자): 폰트의 크기를 지정
       
@@ -34,7 +34,7 @@
       
   * 스위치 on off
   
-<img src="../img/second/6.png" width="40%" height="30%" alt="6"></img>
+<img src="../../img/second/6.png" width="40%" height="30%" alt="6"></img>
 
     * if sender.isOn: 받은것이 isOn이면 아래의 액션이 일어남
     
@@ -46,7 +46,7 @@
     
   * toast 띄우기
   
-  <img src="../img/second/7.png" width="40%" height="30%" alt="7"></img>
+  <img src="../../img/second/7.png" width="40%" height="30%" alt="7"></img>
   
     * let toastLabel = UILabel(frame: CGRect(x: view.frame.width/2 - 150, y: view.frame.height-150, width: 300,  height : 35)): 라벨의 모양을 정의
     
