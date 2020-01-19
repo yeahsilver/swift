@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "636A87A4-952D-4404-98C5-37D787E72877"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "99559D4A-5E7A-4E2A-8974-AAF5C87E5C72"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hello/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "99559D4A-5E7A-4E2A-8974-AAF5C87E5C72 - c3b4d03a0097fffa"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello.ViewController.labelOne.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Hello"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heoyeeun/Documents/xcode/swift/Hello/Hello/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "99559D4A-5E7A-4E2A-8974-AAF5C87E5C72 - 3d2324458f140bbe"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello.ViewController.labelOne.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Hello"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heoyeeun/Documents/xcode/swift/Hello/Hello/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "99559D4A-5E7A-4E2A-8974-AAF5C87E5C72 - 5f43ab1f6d403c0b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello.ViewController.labelOne.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Hello"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heoyeeun/Documents/xcode/swift/Hello/Hello/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "99559D4A-5E7A-4E2A-8974-AAF5C87E5C72 - 50e5e894443ff52a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello.ViewController.labelOne.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Hello"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heoyeeun/Documents/xcode/swift/Hello/Hello/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "99559D4A-5E7A-4E2A-8974-AAF5C87E5C72 - ec9094982b8ce123"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Hello.ViewController"
+                  moduleName = "Hello"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heoyeeun/Documents/xcode/swift/Hello/Hello/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "99559D4A-5E7A-4E2A-8974-AAF5C87E5C72 - 6ed1ba7639a39768"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hello.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Hello.ViewController&gt;"
+                  moduleName = "Hello"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/heoyeeun/Documents/xcode/swift/Hello/Hello/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

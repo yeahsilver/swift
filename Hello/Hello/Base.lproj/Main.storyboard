@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hello" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label은 텍스트를 나타냅니다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ade-Lw-hnf">
+                                <rect key="frame" x="38" y="140" width="341" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="System Italic 속성을 적용한 Label입니다. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ir0-vM-MVe">
+                                <rect key="frame" x="61" y="180" width="292" height="21"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="위의 속성은 Text Field이고 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olU-TZ-z7Q">
+                                <rect key="frame" x="113" y="305" width="189" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsV-FP-0nh">
+                                <rect key="frame" x="182" y="385" width="50" height="30"/>
+                                <state key="normal" title="버튼"/>
+                                <connections>
+                                    <action selector="btnSend:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rlD-Ii-f2P"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="사용자의 입력값" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlW-zn-hJC">
+                                <rect key="frame" x="98" y="326" width="154" height="32"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="을 나타냅니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdo-9m-Cj5">
+                                <rect key="frame" x="206" y="331" width="98" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Hb-dP-1es">
+                                <rect key="frame" x="70" y="254" width="30" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SbW-Sk-jvD">
+                                <rect key="frame" x="113" y="247" width="207" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="^" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Os3-ic-0JK">
+                                <rect key="frame" x="203" y="289" width="9" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ade-Lw-hnf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="96" id="6fj-mb-9fH"/>
+                            <constraint firstItem="nlW-zn-hJC" firstAttribute="centerY" secondItem="Gdo-9m-Cj5" secondAttribute="centerY" id="7Po-kF-lPM"/>
+                            <constraint firstItem="Gdo-9m-Cj5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="206" id="A4i-1p-VPm"/>
+                            <constraint firstItem="ir0-vM-MVe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Abf-bf-Am3"/>
+                            <constraint firstItem="rsV-FP-0nh" firstAttribute="top" secondItem="Gdo-9m-Cj5" secondAttribute="bottom" constant="32" id="Dxs-AP-ugd"/>
+                            <constraint firstItem="ir0-vM-MVe" firstAttribute="centerX" secondItem="rsV-FP-0nh" secondAttribute="centerX" id="IPP-eC-9s2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ade-Lw-hnf" secondAttribute="trailing" constant="35" id="J4D-Kq-Xaq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nlW-zn-hJC" secondAttribute="trailing" constant="162" id="LIK-il-OrH"/>
+                            <constraint firstItem="rsV-FP-0nh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="182" id="M01-7Y-Vpd"/>
+                            <constraint firstItem="ade-Lw-hnf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="OlF-uQ-5dy"/>
+                            <constraint firstItem="ir0-vM-MVe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="WgT-eZ-vFg"/>
+                            <constraint firstItem="nlW-zn-hJC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="Xnj-SS-rMW"/>
+                            <constraint firstItem="nlW-zn-hJC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="326" id="b6Q-Ir-5cS"/>
+                            <constraint firstItem="rsV-FP-0nh" firstAttribute="top" secondItem="nlW-zn-hJC" secondAttribute="bottom" constant="26" id="bdi-XN-i0N"/>
+                            <constraint firstItem="ir0-vM-MVe" firstAttribute="top" secondItem="ade-Lw-hnf" secondAttribute="bottom" constant="19" id="gqy-Xs-8m3"/>
+                            <constraint firstItem="Gdo-9m-Cj5" firstAttribute="top" secondItem="olU-TZ-z7Q" secondAttribute="bottom" constant="5" id="iml-Um-5Gt"/>
+                            <constraint firstItem="olU-TZ-z7Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="113" id="wFD-M3-CyL"/>
+                            <constraint firstItem="ir0-vM-MVe" firstAttribute="centerX" secondItem="olU-TZ-z7Q" secondAttribute="centerX" id="ySP-th-7oa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="labelName" destination="ir0-vM-MVe" id="geE-wi-BeF"/>
+                        <outlet property="labelOne" destination="ade-Lw-hnf" id="wCr-1e-boc"/>
+                        <outlet property="textName" destination="SbW-Sk-jvD" id="k9G-0W-E4A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
