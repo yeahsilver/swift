@@ -39,7 +39,7 @@
       
  
       
-  * 선택시간 불러오기 
+   * 선택시간 불러오기 
   
 <img src="../../img/second/datePicker/4.png" width="40%" height="30%" alt="4"></img>
 
@@ -48,7 +48,7 @@
     * pickerTime.text = "선택시간: "+ formatter.string(from:datePickerView.date): 시간을 문자열로 변환하여 지정된 속성의 포맷대로 날짜를 출력
 
     
-  * timer 설정
+   * timer 설정
   
   <img src="../../img/second/datePicker/5.png" width="40%" height="30%" alt="5"></img>
   
