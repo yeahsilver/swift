@@ -69,7 +69,7 @@ class ViewController: UIViewController {
             toastLabel.layer.cornerRadius = 15; // 레이어의 모양을 나타냄
             toastLabel.clipsToBounds  =  true // 텍스트뷰 테두리가 기준이 됨.
         toastLabel.alpha = 1.0 // 처음 나타나는 색상의 진하기를 나타냄.
-            self.view.addSubview(toastLabel) // 아래의 속성을 가진 subView 생성
+            self.view.addSubview(toastLabel) // 위의 속성을 가진 subView 생성
     UIView.animate(withDuration: 2.0, delay: 0.1, options: .curveEaseIn, animations: { // 천천히 진행되었다가 조금씩 빨라짐
         toastLabel.alpha = 0.25 // 투명도
             }, completion: {(isCompleted) in
