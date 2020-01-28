@@ -11,15 +11,17 @@
 <img src="../../img/second/imageViewer/2.png" width="40%" height="30%" alt="2"></img>
 
 * 그 다음 이미지로 넘긴 경우
+
 <img src="../../img/second/imageViewer/3.png" width="40%" height="30%" alt="3"></img>
 
 * 이전 이미지로 넘긴 경우
+
 <img src="../../img/second/imageViewer/4.png" width="40%" height="30%" alt="4"></img>
 
 ***
 
 * 함수 설명
-  * 이전 이미지로 이동하는 버튼 구현
+  * 이전 이미지로 이동하는 버튼 구현 (다음버튼 거의 유사해서 생략)
 
 <img src="../../img/second/imageViewer/5.png" width="40%" height="30%" alt="5"></img>
 
