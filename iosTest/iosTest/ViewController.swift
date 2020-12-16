@@ -28,19 +28,5 @@ class ViewController: UIViewController, WKUIDelegate {
         webView.load(myRequest)
     }
     
-        
-//    override func viewWillAppear(_ animated: Bool) {
-//        var viewBounds:CGRect = self.view.bounds
-//        viewBounds.origin.y = 20;
-//        viewBounds.size.height = viewBounds.size.height - 20;
-//        self.webView.frame = viewBounds;
-//
-//        self.view.backgroundColor = UIColor.white
-//    }
-
-
-//    override var preferredStatusBarStyle: UIStatusBarStyle{
-//        return .lightContent
-//    }
 }
 
