@@ -15,6 +15,7 @@
 		968239F125A4738C0016001F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968239EF25A4738C0016001F /* LaunchScreen.storyboard */; };
 		968239FC25A4738C0016001F /* AlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968239FB25A4738C0016001F /* AlbumTests.swift */; };
 		96823A0725A4738C0016001F /* AlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96823A0625A4738C0016001F /* AlbumUITests.swift */; };
+		96823A2B25A48F1E0016001F /* ScreenshotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96823A2A25A48F1E0016001F /* ScreenshotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		96823A0225A4738C0016001F /* AlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96823A0625A4738C0016001F /* AlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumUITests.swift; sourceTree = "<group>"; };
 		96823A0825A4738C0016001F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96823A2A25A48F1E0016001F /* ScreenshotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				968239E625A4738B0016001F /* SceneDelegate.swift */,
 				968239E825A4738B0016001F /* MainViewController.swift */,
 				968239EA25A4738B0016001F /* Main.storyboard */,
+				96823A2A25A48F1E0016001F /* ScreenshotViewController.swift */,
 				968239ED25A4738C0016001F /* Assets.xcassets */,
 				968239EF25A4738C0016001F /* LaunchScreen.storyboard */,
 				968239F225A4738C0016001F /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				968239E925A4738B0016001F /* MainViewController.swift in Sources */,
 				968239E525A4738B0016001F /* AppDelegate.swift in Sources */,
+				96823A2B25A48F1E0016001F /* ScreenshotViewController.swift in Sources */,
 				968239E725A4738B0016001F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

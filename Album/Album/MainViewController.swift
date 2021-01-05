@@ -7,8 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
+    @IBOutlet var containedView: UIView!
     @IBOutlet var imageView: UIImageView!
     
     let picker = UIImagePickerController()
@@ -48,9 +49,36 @@ class ViewController: UIViewController {
             print("camera not available")
         }
     }
+    
+    @IBAction func screenshotButton(_ sender: Any) {
+        let screenshot = self.containedView.takeScreenshot()
+        
+        let vc = storyboard?.instantiateViewController(identifier: "screenshot") as! ScreenshotViewController
+        
+        vc.image = screenshot
+        vc.modalPresentationStyle = .fullScreen
+        
+        present(vc, animated: true)
+    }
 }
 
-extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+extension UIView {
+    func takeScreenshot() -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(self.bounds.size, false, UIScreen.main.scale)
+        drawHierarchy(in: self.bounds, afterScreenUpdates: true)
+        
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        if image != nil {
+            return image!
+        }
+        
+        return UIImage()
+    }
+}
+
+extension MainViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
