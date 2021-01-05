@@ -36,10 +36,22 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="270"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aw3-av-9FB">
+                                        <rect key="frame" x="0.0" y="7" width="376.33333333333331" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Aw3-av-9FB" secondAttribute="height" multiplier="398:21" id="6xU-ll-WeU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Aw3-av-9FB" secondAttribute="trailing" multiplier="1.1" id="823-VO-QzQ"/>
                                     <constraint firstAttribute="width" secondItem="uc7-RN-UYL" secondAttribute="height" multiplier="23:15" id="KJR-tf-Ua4"/>
+                                    <constraint firstAttribute="bottom" secondItem="Aw3-av-9FB" secondAttribute="bottom" multiplier="10" id="XUn-5T-vZH"/>
+                                    <constraint firstItem="Aw3-av-9FB" firstAttribute="leading" secondItem="uc7-RN-UYL" secondAttribute="leading" id="nO6-oy-2nj"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Zp-f3-Fmt">
@@ -67,6 +79,7 @@
                     </view>
                     <connections>
                         <outlet property="containedView" destination="uc7-RN-UYL" id="QPj-RN-YZp"/>
+                        <outlet property="dateLabel" destination="Aw3-av-9FB" id="hcO-2H-UrM"/>
                         <outlet property="imageView" destination="eBK-l1-PB5" id="Cn4-r2-oj8"/>
                     </connections>
                 </viewController>
