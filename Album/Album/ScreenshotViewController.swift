@@ -15,5 +15,7 @@ class ScreenshotViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         imageView.image = image
+        
     }
+    
 }

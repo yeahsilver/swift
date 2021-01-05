@@ -54,8 +54,9 @@ class MainViewController: UIViewController {
     }
     
     
-    @IBAction func screenshotButton(_ sender: Any) {
+    @IBAction func screenshotButton(_ sender: AnyObject) {
         let screenshot = self.containedView.takeScreenshot()
+        UIImageWriteToSavedPhotosAlbum(screenshot, self, #selector(imageSaved(image:didFinishSavingWithError:contextInfo:)), nil)
         
         let vc = storyboard?.instantiateViewController(identifier: "screenshot") as! ScreenshotViewController
         
@@ -63,6 +64,11 @@ class MainViewController: UIViewController {
         vc.modalPresentationStyle = .fullScreen
         
         present(vc, animated: true)
+    }
+    
+    @objc func imageSaved(image:UIImage, didFinishSavingWithError error:Error, contextInfo:UnsafeMutableRawPointer?){
+        let alert =  UIAlertController(title: "저장 완료", message: "갤러리에 이미지가 저장되었습니다.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "확인", style: .default, handler: nil))
     }
 }
 
