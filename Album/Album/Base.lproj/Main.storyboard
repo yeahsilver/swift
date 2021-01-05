@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Album" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dnf-6F-Bup">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="이미지 가져오기" id="I3N-0Q-zZA">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="SeH-V6-WDe">
+                                            <connections>
+                                                <action selector="addAction:" destination="BYZ-38-t0r" id="KgK-7N-TAI"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eBK-l1-PB5">
+                                <rect key="frame" x="0.0" y="233" width="414" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eBK-l1-PB5" secondAttribute="height" multiplier="23:15" id="KWx-7R-QlR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eBK-l1-PB5" secondAttribute="trailing" id="2JW-jY-cAP"/>
+                            <constraint firstItem="Dnf-6F-Bup" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9qk-6v-rWM"/>
+                            <constraint firstItem="Dnf-6F-Bup" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CbZ-3X-DAw"/>
+                            <constraint firstItem="eBK-l1-PB5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ghj-x5-LXZ"/>
+                            <constraint firstItem="Dnf-6F-Bup" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RK1-Bg-13u"/>
+                            <constraint firstItem="eBK-l1-PB5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="frG-6e-DTA"/>
+                            <constraint firstItem="eBK-l1-PB5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qFY-4D-UGt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="eBK-l1-PB5" id="Cn4-r2-oj8"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="109.23913043478262"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
