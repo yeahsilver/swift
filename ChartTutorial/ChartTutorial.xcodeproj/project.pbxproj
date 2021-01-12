@@ -17,6 +17,9 @@
 		9673C6A725AAA93400257A9D /* ChartTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9673C6A625AAA93400257A9D /* ChartTutorialTests.swift */; };
 		9673C6B225AAA93400257A9D /* ChartTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9673C6B125AAA93400257A9D /* ChartTutorialUITests.swift */; };
 		9673C6CA25AAB5C000257A9D /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9673C6C925AAB5C000257A9D /* LineChartViewController.swift */; };
+		96D90A0A25AC11750014BFE0 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D90A0925AC11750014BFE0 /* Marker.swift */; };
+		96D90A1025AC14030014BFE0 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D90A0F25AC14030014BFE0 /* BalloonMarker.swift */; };
+		96D90A1825AC186A0014BFE0 /* XYMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D90A1725AC186A0014BFE0 /* XYMarkerView.swift */; };
 		C104257FA98A402E45286AD2 /* Pods_ChartTutorialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1A7F0551272BB537B8CEB0 /* Pods_ChartTutorialTests.framework */; };
 		FA55A35C03116C30EF854BD0 /* Pods_ChartTutorial_ChartTutorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB21DB7230E1BC0C59E4DBA7 /* Pods_ChartTutorial_ChartTutorialUITests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +63,9 @@
 		9673C6B125AAA93400257A9D /* ChartTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTutorialUITests.swift; sourceTree = "<group>"; };
 		9673C6B325AAA93400257A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9673C6C925AAB5C000257A9D /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		96D90A0925AC11750014BFE0 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		96D90A0F25AC14030014BFE0 /* BalloonMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		96D90A1725AC186A0014BFE0 /* XYMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYMarkerView.swift; sourceTree = "<group>"; };
 		9844EA5E74E317393B2F5B1D /* Pods_ChartTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C183F00AEDB414A14C8FB5 /* Pods-ChartTutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartTutorialTests.debug.xcconfig"; path = "Target Support Files/Pods-ChartTutorialTests/Pods-ChartTutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB21DB7230E1BC0C59E4DBA7 /* Pods_ChartTutorial_ChartTutorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartTutorial_ChartTutorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +142,8 @@
 				9673C69325AAA93300257A9D /* ViewController.swift */,
 				9673C69525AAA93300257A9D /* Main.storyboard */,
 				9673C6C925AAB5C000257A9D /* LineChartViewController.swift */,
+				96D90A0E25AC13F30014BFE0 /* Components */,
+				96D90A0925AC11750014BFE0 /* Marker.swift */,
 				9673C69825AAA93400257A9D /* Assets.xcassets */,
 				9673C69A25AAA93400257A9D /* LaunchScreen.storyboard */,
 				9673C69D25AAA93400257A9D /* Info.plist */,
@@ -159,6 +167,15 @@
 				9673C6B325AAA93400257A9D /* Info.plist */,
 			);
 			path = ChartTutorialUITests;
+			sourceTree = "<group>";
+		};
+		96D90A0E25AC13F30014BFE0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				96D90A1725AC186A0014BFE0 /* XYMarkerView.swift */,
+				96D90A0F25AC14030014BFE0 /* BalloonMarker.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		A94224A15F8DFBF4CDE33FA2 /* Frameworks */ = {
@@ -410,9 +427,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9673C69425AAA93300257A9D /* ViewController.swift in Sources */,
+				96D90A1825AC186A0014BFE0 /* XYMarkerView.swift in Sources */,
 				9673C6CA25AAB5C000257A9D /* LineChartViewController.swift in Sources */,
 				9673C69025AAA93300257A9D /* AppDelegate.swift in Sources */,
+				96D90A1025AC14030014BFE0 /* BalloonMarker.swift in Sources */,
 				9673C69225AAA93300257A9D /* SceneDelegate.swift in Sources */,
+				96D90A0A25AC11750014BFE0 /* Marker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
