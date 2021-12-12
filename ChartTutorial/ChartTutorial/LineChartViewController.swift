@@ -82,16 +82,16 @@ class LineChartViewController: UIViewController, IValueFormatter {
       
         let leftAxis = LineChartView.leftAxis
         leftAxis.drawGridLinesEnabled = true
+        leftAxis.gridColor = UIColor(red: 241/255, green: 241/255, blue: 241/255, alpha: 1.0)
         leftAxis.drawAxisLineEnabled = false
         leftAxis.drawLabelsEnabled = false
         leftAxis.granularityEnabled = false
-        // leftAxis.axisLineDashPhase = CGFloat(1)
         
         let rightAxis = LineChartView.rightAxis
         rightAxis.enabled = false
         
         let ll = ChartLimitLine(limit: 55.0, label: "")
-        ll.lineColor = UIColor(red: 122/255, green: 111/255, blue: 225/255, alpha: 1)
+        ll.lineColor = UIColor(red: 201/255, green: 192/255, blue: 225/255, alpha: 1)
         ll.lineDashLengths = [5, 5]
         ll.lineWidth = 1.0
         

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1059137269491-oe9h7ch6a33otr11b0k0do2l4rdm5rpr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1059137269491-oe9h7ch6a33otr11b0k0do2l4rdm5rpr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAmOJrpHBJR4eG-XvpdfUunZUxl3HPSHG4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1059137269491</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>yeahsilver.FirebaseStorage</string>
+	<key>PROJECT_ID</key>
+	<string>fir-storage-project-92f07</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-storage-project-92f07.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1059137269491:ios:8b0d387c234d84c99cd186</string>
+</dict>
+</plist>

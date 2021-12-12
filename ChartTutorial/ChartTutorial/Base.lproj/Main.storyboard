@@ -58,21 +58,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z06-EW-YK4" customClass="LineChartView" customModule="Charts">
-                                <rect key="frame" x="32" y="272" width="350" height="350"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z06-EW-YK4" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="32" y="272" width="350" height="155"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Z06-EW-YK4" secondAttribute="height" multiplier="1:1" id="zjW-UV-hzW"/>
+                                    <constraint firstAttribute="height" constant="155" id="Rru-C8-u8e"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Oao-n2-hGx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Z06-EW-YK4" firstAttribute="leading" secondItem="Oao-n2-hGx" secondAttribute="leading" constant="32" id="LFc-hR-g7c"/>
-                            <constraint firstItem="Oao-n2-hGx" firstAttribute="trailing" secondItem="Z06-EW-YK4" secondAttribute="trailing" constant="32" id="OcO-eY-L7i"/>
-                            <constraint firstItem="Z06-EW-YK4" firstAttribute="centerY" secondItem="oZn-FU-QSo" secondAttribute="centerY" id="VCF-Gq-PTH"/>
-                            <constraint firstItem="Z06-EW-YK4" firstAttribute="centerX" secondItem="oZn-FU-QSo" secondAttribute="centerX" id="jJM-1V-bhE"/>
+                            <constraint firstItem="Oao-n2-hGx" firstAttribute="trailing" secondItem="Z06-EW-YK4" secondAttribute="trailing" constant="32" id="CPf-Go-T1s"/>
+                            <constraint firstItem="Z06-EW-YK4" firstAttribute="leading" secondItem="Oao-n2-hGx" secondAttribute="leading" constant="32" id="wf9-aT-Phj"/>
                         </constraints>
                     </view>
                     <connections>
